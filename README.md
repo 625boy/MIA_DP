@@ -9,10 +9,10 @@ The datasets are automatically downloaded through `torchvision` when running the
 ## Experiments
 
 # Membership Inference Attack
-- `MIA_result.ipynb` contains experiments for evaluating privacy leakage of the pre-trained model.
+`MIA_result.ipynb` contains experiments for evaluating privacy leakage of the pre-trained model.
 
 # Differential Privacy
-- `DP_result.ipynb` applies Differential Privacy using `Opacus` and evaluates the resulting privacy–utility trade-off.
+`DP_result.ipynb` applies Differential Privacy using `Opacus` and evaluates the resulting privacy–utility trade-off.
 
 The notebook considers different DP training strategies, including:
 * Full-model DP training
@@ -29,8 +29,8 @@ The experiments evaluate:
 .
 +-- train_model
 |       +-- models
-|        |  +-- __init__.py
-|        |  +-- resnet_test.py
+|       |      +-- __init__.py
+|       |      +-- resnet_test.py
 |       +-- main.py
 |       +-- utils.py
 +-- notebooks
