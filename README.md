@@ -7,10 +7,8 @@ The experiments are based on a ResNet18 image classifier trained on CIFAR-10.
 The datasets are automatically downloaded through `torchvision` when running the notebooks.
 
 ## Experiments
-
 # Membership Inference Attack
 `MIA_result.ipynb` contains experiments for evaluating privacy leakage of the pre-trained model.
-
 # Differential Privacy
 `DP_result.ipynb` applies Differential Privacy using `Opacus` and evaluates the resulting privacy–utility trade-off.
 
